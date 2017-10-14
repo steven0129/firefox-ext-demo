@@ -1,0 +1,29 @@
+{
+
+    "description": "sessions",
+    "manifest_version": 2,
+    "name": "sessions",
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/cake.jpg"
+        },
+        "default_title": "sessions"
+    },
+    "version": "1.0",
+    "homepage_url": "https://github.com/steven0129/firefox-ext-demo",
+    "icons": {
+        "48": "icons/cake.jpg"
+    },
+
+    "background": {
+        "scripts": [
+            "sessions.js"
+        ]
+    },
+
+    "permissions": [
+        "tabs",
+        "sessions"
+    ]
+
+}
