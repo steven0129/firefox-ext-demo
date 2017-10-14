@@ -1,0 +1,23 @@
+{
+
+  "description": "Adds a solid red border to all webpages matching mozilla.org. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#borderify",
+  "manifest_version": 2,
+  "name": "Notifications",
+  "version": "1.0",
+  "homepage_url": "https://github.com/steven0129/firefox-ext-demo",
+  "icons": {
+    "48": "icons/cake.jpg"
+  },
+
+  "background": {
+    "scripts": [
+        "notifications.js"
+    ]
+},
+
+  "permissions": [
+    "alarms",
+    "notifications"
+  ]
+
+}
