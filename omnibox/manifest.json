@@ -1,0 +1,25 @@
+{
+
+    "description": "Omnibox",
+    "omnibox": {
+    "keyword":"search>"
+    },
+    "manifest_version": 2,
+    "name": "Omnibox",
+    "version": "1.0",
+    "homepage_url": "https://github.com/steven0129/firefox-ext-demo",
+    "icons": {
+        "48": "icons/cake.jpg"
+    },
+
+    "background": {
+        "scripts": [
+            "omnibox.js"
+        ]
+    },
+
+    "permissions":[
+        "tabs"
+    ]
+
+}
