@@ -1,0 +1,25 @@
+{
+
+    "description": "pageAction",
+    "manifest_version": 2,
+    "name": "pageAction",
+    "version": "1.0",
+    "page_action":{
+        "default_icon":"icons/cake.jpg"
+    },
+    "homepage_url": "https://github.com/steven0129/firefox-ext-demo",
+    "icons": {
+        "48": "icons/cake.jpg"
+    },
+
+    "background": {
+        "scripts": [
+            "pageAction.js"
+        ]
+    },
+
+    "permissions":[
+        "tabs"
+    ]
+
+}
